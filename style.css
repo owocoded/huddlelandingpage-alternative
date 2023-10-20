@@ -1,0 +1,419 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box     ;
+}
+body{
+  background-color: hsl(0, 0%, 98%);
+}
+.section{
+  width: 100%;
+  background-image: url(images/bg-hero-desktop.svg);
+  background-color: hsl(193, 100%, 96%);
+  padding: 0px 50px;
+}
+.section .nav{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.section .nav img{
+  width: 100px;
+}
+.section .nav button{
+  background-color: white;
+  border: none;
+  padding: 7px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.section .nav button:hover{
+  color: hsl(208, 11%, 55%);
+}
+.section .header{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.section .mid-header{
+  width: 50%;
+  margin-top: 80px;
+}
+.section .mid-header h1{
+  text-transform: capitalize;
+  margin: 0px 90px 30px 0px;
+  line-height: 50px;
+  font-family: 'Poppins' sans-serif;
+  font-weight: 600;
+}
+.section .mid-header p{
+  padding-right: 50px;
+  margin-bottom: 40px;
+  font-family: 'Open Sans' sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.section .mid-header a{
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  padding: 10px 50px;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 13px;
+}
+.section .mid-header a:hover{
+  background-color: hsla(322, 76%, 74%, 0.979);
+}
+.section .header img{
+  width: 50%;
+  margin-bottom: 10%;
+}
+.mid-section{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 9% 6% 0% 6%;
+  border-radius: 10px;
+}
+.mid-section div{
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 7%;
+  padding: 4%;
+}
+.mid-section div h2{
+  margin-bottom: 5%;
+}
+.mid-section div p{
+  color: hsl(208, 11%, 55%);
+  width: 80%;
+}
+.mid-section img{
+  width: 35%;
+  margin: 4% 4% 4% 3%;
+}
+.section-center {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 6% 0% 6%;
+  border-radius: 10px;
+}
+.section-center div {
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 7%;
+  padding: 4%;
+}
+.section-center div h3{
+  margin-bottom: 5%;
+}
+.section-center div p{
+  color: hsl(208, 11%, 55%);
+  width: 90%;
+}
+.section-center img {
+  width: 35%;
+  margin: 4% 4% 4% 7%;
+}
+.section-footer {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 6% 15% 6%;
+  border-radius: 10px;
+}
+.section-footer div {
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 7%;
+  padding: 4%;
+}
+.section-footer div h4{
+  margin-bottom: 5%;
+}
+.section-footer div p{
+  color: hsl(208, 11%, 55%);
+  width: 90%;
+}
+.section-footer img {
+  width: 35%;
+  margin: 4% 4% 4% 7%;
+}
+.ready{
+  text-align: center;
+  background-color: white;
+  position: relative;
+  top: 2.9rem;
+  width: 40%;
+  height: fit-content;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 5%;
+}
+.ready h5{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10%;
+}
+.ready a{
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  padding: 10px 50px;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 13px;
+}
+.ready a:hover{
+  background-color: hsla(322, 76%, 74%, 0.979);
+}
+footer{
+  background-color: black;
+  color: white;
+  padding: 10% 5% 8% 8%;
+}
+footer .icon img{
+  margin-bottom: 3%;
+}
+footer .footer-header {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-header .location{
+  display: flex;
+  gap: 15px;
+  margin-bottom: 5%;
+}
+footer .footer-header .contact {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5%;
+}
+footer .footer-header .email {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5%;
+}
+footer .footer-header .us{
+  margin-bottom: 20%;
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+footer .footer-header .us:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+footer .footer-header .we{
+  margin-bottom: 20%;
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+footer .footer-header .we:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+footer .footer-header .ask{
+  margin-bottom: 20%;
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+footer .footer-header .ask:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+footer .footer-header .footer-icons{
+  margin-right: 15%;
+}
+footer .footer-header .fb{
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 7px;
+  margin-right: 10px;
+}
+footer .footer-header .fb:hover{
+  color: hsl(322, 100%, 66%);
+  border: 1px solid  hsl(322, 100%, 66%);
+  cursor: pointer;
+}
+footer .footer-header .twitter{
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 7px;
+  margin-right: 10px;
+}
+footer .footer-header .twitter:hover{
+  color: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  cursor: pointer;
+}
+footer .footer-header .ins{
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 7px;
+}
+footer .footer-header .ins:hover{
+  color: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  cursor: pointer;
+}
+footer .copy{
+  text-align: end;
+  margin-top: 30px;
+}
+@media screen and (max-width: 1036px){
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  .section {
+    background-image: url(images/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background: fixed;
+    background-color: hsl(193, 100%, 96%);
+  }
+  .section .nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .section .nav button{
+    width: 50%;
+    font-size: 10px;
+  }
+  .section .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section .header img{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .section .mid-header{
+    text-align: center;
+    width: 100%;
+  }
+  .section .mid-header h1{
+    width: 100%;
+    text-align: center;
+  }
+  .section .mid-header p{
+    width: 100%;
+    text-align: center;
+  }
+  .section .mid-header .free{
+    color: white;
+    padding: 10px 20px;
+    font-size: 10px;
+  }
+  .mid-section{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+    padding: 40px;
+  }
+  .mid-section div{
+    width: 100%;
+  }
+  .mid-section div h2{
+    text-align: center;
+  }
+  .mid-section div p{
+    text-align: center;
+    width: 100%;
+  }
+  .mid-section img{
+    width: 100%;
+  }
+  .section-center{
+    display: flex;
+    flex-direction: column;
+    padding: 30px ;
+  }
+  .section-center img{
+    width: 100%;
+  }  
+  .section-center div{
+    width: 100%;
+  }
+  .section-center div h3{
+    text-align: center;
+  }
+  .section-center div p{
+    text-align: center;
+  }
+  .section-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+  }
+  .section-footer div{
+    width: 100%;
+  }
+  .section-footer div h4{
+    text-align: center;
+  }
+  .section-footer div p{
+    text-align: center;
+  }
+  .section-footer img{
+    width: 100%;
+  }
+  .ready{
+    width: 90%;
+    margin: 30px;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-header{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-header .footer-info{
+    width: 35%;
+  }
+  .footer-header div .us{
+    margin-bottom: 10px;
+  }
+  .footer-header div .we{
+    margin-bottom: 10px;
+  }
+  .footer-header .ask{
+    margin-bottom: 10px;
+  }
+  .footer-header .footer-icons{
+    text-align: center;
+  }
+  footer .copy{
+    width: 100%;
+    text-align: center;
+  }
+  .attribution{
+    margin-top: 15px;
+  }
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: white;
+  text-decoration: none;
+}
+.attribution a:hover{
+  color: hsl(322, 100%, 66%);
+}
